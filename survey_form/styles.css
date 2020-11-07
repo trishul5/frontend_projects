@@ -1,0 +1,21 @@
+html {
+    background-color: lightblue;
+}
+
+body {
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.mainTitle {
+    text-align: center;
+}
+
+.formContainer {
+    border: 5px solid lightblue;
+    text-align: center;
+    padding: 25px;
+    background-color: white;
+    font-size: 22px;
+    width: auto;
+    height: auto;
+}

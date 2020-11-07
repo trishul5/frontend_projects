@@ -2,59 +2,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Survey Form</title>
 </head>
 <body>
 
-    <h1>Survey</h1>
+    <h1 class="mainTitle">Survey Form</h1>
 
-    <!--Enclosing form that contains multiple fields -->
-    <form action="" id="mainForm">
+    <div class="formContainer">
 
-        <label for="name">*Name: </label>
-        <input type="text" placeholder="Enter your name">
+        <h5>*Denotes a required field</h5>
 
-        <br>
-        <br>
+        <!--Enclosing form that contains multiple fields -->
+        <form action="" id="mainForm">
 
-        <label for="email">*Email: </label>
-        <input type="text" placeholder="Enter your email">
+            <label for="name">*Name: </label>
+            <input type="text" placeholder="Enter your name">
 
-        <br>
-        <br>
+            <br>
+            <br>
 
-        <label for="age">*Age: </label>
-        <input type="number" name="age" min="0" max="120">
+            <label for="email">*Email: </label>
+            <input type="text" placeholder="Enter your email">
 
-        <br>
-        <br>
+            <br>
+            <br>
 
-        <label for="role">Which option best describes your current skill level?</label>
-        <select name="" id="">
-            <option value="beginner">Beginner</option>
-            <option value="intermediate">Intermediate</option>
-            <option value="expert">Expert</option>
-        </select>
+            <label for="age">*Age: </label>
+            <input type="number" name="age" min="0" max="120" placeholder="Enter your age">
 
-        <br>
-        <br>
+            <br>
+            <br>
 
-        <label for="likelihoodToRecommend">How likely would it be that your recommend FreeCodeCamp to a friends/family?</label>
-        <input type="radio" id="likely" name="likelihood" value="likely">
-        <label for="likelihood">Likely</label>
-        
-        <br>
+            <label for="role">Which option best describes your current skill level?</label>
+            <select name="" id="">
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="expert">Expert</option>
+            </select>
 
-        <input type="radio" id="unlikely" name="likelihood" value="unlikely">
-        <label for="likelihood">Unlikely</label>
+            <br>
+            <br>
 
-        <br>
-        
-        <input type="radio" id="Not sure" name="likelihood" value="Not sure">
-        <label for="likelihood">Not sure</label>
+            <label for="likelihoodToRecommend">How likely would it be that your recommend FreeCodeCamp to a friends/family?</label>
+            <br>
+            <input type="radio" id="likely" name="likelihood" value="likely">
+            <label for="likelihood">Likely</label>
+            
+            <br>
 
-        <br>
-        
-    </form>
+            <input type="radio" id="unlikely" name="likelihood" value="unlikely">
+            <label for="likelihood">Unlikely</label>
+
+            <br>
+            
+            <input type="radio" id="Not sure" name="likelihood" value="Not sure">
+            <label for="likelihood">Not sure</label>
+
+            <br>
+            <br>
+
+            <label for="likeMost">What do you like most about FreeCodeCamp?</label>
+            <select name="" id="">
+                <option value="chooseAnOption">Choose a single option</option>
+                <option value="forum">Forum</option>
+                <option value="tutorials">Tutorials</option>
+                <option value="projects">Projects</option>
+            </select>
+
+
+        </form>
+    </div>
+
 </body>
 </html>
