@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+
+    <h1>Survey</h1>
+
+    <!--Enclosing form that contains multiple fields -->
+    <form action="" id="mainForm">
+
+        <label for="name">*Name: </label>
+        <input type="text" placeholder="Enter your name">
+
+        <br>
+        <br>
+
+        <label for="email">*Email: </label>
+        <input type="text" placeholder="Enter your email">
+
+        <br>
+        <br>
+
+        <label for="age">*Age: </label>
+        <input type="number" name="age" min="0" max="120">
+
+        <br>
+        <br>
+
+        <label for="role">Which option best describes your current skill level?</label>
+        <select name="" id="">
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="expert">Expert</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="likelihoodToRecommend">How likely would it be that your recommend FreeCodeCamp to a friends/family?</label>
+        <input type="radio" id="likely" name="likelihood" value="likely">
+        <label for="likelihood">Likely</label>
+        
+        <br>
+
+        <input type="radio" id="unlikely" name="likelihood" value="unlikely">
+        <label for="likelihood">Unlikely</label>
+
+        <br>
+        
+        <input type="radio" id="Not sure" name="likelihood" value="Not sure">
+        <label for="likelihood">Not sure</label>
+
+        <br>
+        
+    </form>
+</body>
+</html>
