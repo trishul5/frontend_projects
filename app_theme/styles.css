@@ -1,0 +1,25 @@
+html {
+    background-color: rgb(233, 230, 230);
+    font-family: 'Questrial', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#mainNav {
+    list-style: none;
+    text-align: center;
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
+
+#mainNav li {
+    display: inline;
+    padding: 2em;
+    color: black; 
+    font-size: 18px;    
+}
