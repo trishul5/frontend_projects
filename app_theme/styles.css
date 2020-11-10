@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(233, 230, 230);
+    background-color: white;
     font-family: 'Questrial', sans-serif;
 }
 
@@ -22,4 +22,15 @@ body {
     padding: 2em;
     color: black; 
     font-size: 18px;    
+}
+
+.img-container {
+    background-image: url(../app_theme/images/ipad.jpg);
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 80%;
+    margin: auto;
 }
