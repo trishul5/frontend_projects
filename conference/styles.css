@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContent {
+    color: black;
+    background-color: lightblue;
+    height: auto;
+    width: auto;
+}
+
+.mainContent ul {
+    list-style: none;
+    float: right;
+}
+
+.mainContent ul li {
+    display: inline;
+    padding: 3px;
+}   
+
+.mainContent ul li a {
+    text-decoration: none;
+}
+
+#date {
+}
