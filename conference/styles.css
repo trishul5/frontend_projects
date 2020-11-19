@@ -1,3 +1,7 @@
+html {
+    font-family: 'Cabin', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -5,24 +9,59 @@ body {
 
 .mainContent {
     color: black;
-    background-color: lightblue;
+    background-color: rgb(145, 197, 214);
     height: auto;
     width: auto;
 }
 
+#mainTitle {
+    font-size: 40px;
+    float: left;
+    text-align: left;
+    width: 60%;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
 .mainContent ul {
     list-style: none;
-    float: right;
 }
 
 .mainContent ul li {
     display: inline;
-    padding: 3px;
+    margin: 5px;
 }   
 
 .mainContent ul li a {
     text-decoration: none;
+    color: rgb(57, 57, 104);
 }
 
-#date {
+.eventDescription h2 {
+    text-align: center;
+}
+
+#sideList h3 {
+    text-align: right;
+}
+
+#sideList {
+    float: right;
+    width: 40%;
+    color: #fff;
+    padding: 25px;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.clr {
+    clear: both;
+}
+
+.eventDescription h2 {
+    float: none;
+}
+
+.eventDescription h3 {
+    text-align: center;
 }
