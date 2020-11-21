@@ -55,7 +55,7 @@ body {
 }
 
 #registerButton {
-    position:relative;
+    position: relative;
     right: 44%;
     left: 44%;
 }
@@ -81,7 +81,7 @@ body {
 }
 
 .informationBlock img {
-    height: 150px;
+    height: 200px;
 }
 
 .footer {
