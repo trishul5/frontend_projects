@@ -1,5 +1,5 @@
 html {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Archivo', sans-serif;    
 }
 
 body {
@@ -54,6 +54,12 @@ body {
     box-sizing: border-box;
 }
 
+#registerButton {
+    position:relative;
+    right: 44%;
+    left: 44%;
+}
+
 .clr {
     clear: both;
 }
@@ -76,4 +82,16 @@ body {
 
 .informationBlock img {
     height: 150px;
+}
+
+.footer {
+    background-color: rgb(145, 197, 214);
+    height: 70px;
+    width: 100%;
+}
+
+.footer p {
+    position: relative;
+    text-align: center;
+    top: 30px;
 }
