@@ -8,7 +8,6 @@ html {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    border: 3px solid red;
     width: 800px;
     height: 500px;
 }
@@ -16,7 +15,7 @@ html {
 .description {
     padding: 20px;
     text-align: left;
-    background-color: rgb(240, 229, 229);
+    background-color: rgb(255, 255, 255);
 }
 
 .pricing {
@@ -25,14 +24,16 @@ html {
     top: 4.5%;
     height: 55%;
     width: 50%;
-    background-color: seagreen;
+    color: white;
+    background-color: rgb(43, 179, 177);
+    text-align: center;
 }
 
 .featuredContent {
     position: relative;
     float: right;
-    top: 4.3%;
-    background-color: navajowhite;
+    top: 4.45%;
+    background-color: rgb(74, 190, 189);
     height: 55%;
     width: 50%;
 }
