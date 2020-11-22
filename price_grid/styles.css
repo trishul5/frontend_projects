@@ -12,3 +12,14 @@ html {
     width: 800px;
     height: 500px;
 }
+
+.description {
+    padding: 20px;
+}
+
+.pricing {
+    position: relative;
+    float: left;
+    top: 5%;
+    left: 5%;
+}
