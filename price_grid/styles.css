@@ -15,11 +15,34 @@ html {
 
 .description {
     padding: 20px;
+    text-align: left;
+    background-color: rgb(240, 229, 229);
 }
 
 .pricing {
     position: relative;
     float: left;
-    top: 5%;
-    left: 5%;
+    top: 4.5%;
+    height: 55%;
+    width: 50%;
+    background-color: seagreen;
+}
+
+.featuredContent {
+    position: relative;
+    float: right;
+    top: 4.3%;
+    background-color: navajowhite;
+    height: 55%;
+    width: 50%;
+}
+
+.featuredContent h2 {
+    text-align: center;
+}
+
+.featuredContent ul {
+    position: relative;
+    list-style: none;
+    left: 20%;
 }
