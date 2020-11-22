@@ -1,15 +1,18 @@
-html {
-    font-family: 'Archivo', sans-serif;    
+@font-face {
+    font-family: "Zecko Sans";
+    src: url(Zecko-Sans.ttf) format("truetype");
 }
 
 body {
     margin: 0;
     padding: 0;
+    font-family: "Zecko Sans";
+    font-size: 20px;
 }
 
 .mainContent {
-    color: black;
-    background-color: rgb(145, 197, 214);
+    color: white;
+    background-color: rgb(41, 63, 80);
     height: auto;
     width: auto;
 }
@@ -34,7 +37,8 @@ body {
 
 .mainContent ul li a {
     text-decoration: none;
-    color: rgb(57, 57, 104);
+    color: white;
+    
 }
 
 .eventDescription h2 {
@@ -85,7 +89,8 @@ body {
 }
 
 .footer {
-    background-color: rgb(145, 197, 214);
+    background-color: rgb(41, 63, 80);
+    color: white;
     height: 70px;
     width: 100%;
 }
