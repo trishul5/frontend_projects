@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-color: lightgray;
+    background-color: rgb(230, 230, 230);
 }
 
 .container {
@@ -36,14 +36,11 @@ body {
     text-align: center;
 }
 
-.pricing button {
-    
-}
-
 .featuredContent {
     position: relative;
     float: right;
     top: 5.45%;
+    color: rgb(255, 255, 255);
     background-color: rgb(74, 190, 189);
     height: 55%;
     width: 50%;
